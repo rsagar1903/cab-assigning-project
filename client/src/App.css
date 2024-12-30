@@ -1,0 +1,52 @@
+/* App.css */
+
+/* Main container layout (can be used in App.js) */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the content takes at least full viewport height */
+  background-color: #f4f4f4;
+}
+
+/* Padding for main content to prevent it from hugging the edges */
+.app-content {
+  flex: 1; /* Makes sure it stretches to fill the space between the navbar and footer */
+  padding: 2rem; /* Provides spacing inside the main content area */
+}
+
+/* Navbar spacing for better presentation */
+.navbar {
+  background-color: #1976d2; /* Custom color for navbar if needed */
+  padding: 1rem;
+}
+
+/* Style adjustments for Paper and cards used in RideRequest */
+.paper {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Full width bars (RideRequest bar) */
+.ride-request-bar {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Basic button styling for consistency */
+.btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #1565c0;
+}

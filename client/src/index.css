@@ -1,0 +1,54 @@
+/* index.css */
+
+/* Basic CSS reset for margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body font, height, and 100% width */
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #f4f4f4; /* Light background for the overall page */
+  color: #333;
+}
+
+/* Ensuring all images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Anchor tag defaults */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Basic styling for buttons to match Material UI */
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* Full width container */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
